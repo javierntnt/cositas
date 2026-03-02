@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import './GamaColores.css';
+import paletaColores from './img/color empresa 1.png';
 
 const GamaColores = () => {
   const coloresPrimarios = [
@@ -51,7 +52,7 @@ const GamaColores = () => {
           <Col lg={10} className="mx-auto">
             <div className="paleta-image-container">
               <img 
-                src="/src/components/img/color empresa 1.png" 
+                src={paletaColores} 
                 alt="Paleta de colores corporativa" 
                 className="paleta-image"
               />

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Hero.css';
+import logoMultisas from './img/Multisas3.png';
 
 const Hero = () => {
   return (
@@ -25,7 +26,7 @@ const Hero = () => {
           <Col lg={6} className="hero-image">
             <div className="hero-logo-container">
               <img 
-                src="/src/components/img/Multisas3.png" 
+                src={logoMultisas} 
                 alt="Logo Multiaxis SAS" 
                 className="hero-logo"
               />

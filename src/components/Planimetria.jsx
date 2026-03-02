@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Planimetria.css';
+import logoMultisas from './img/Multisas3.png';
 
 const Planimetria = () => {
   return (
@@ -25,7 +26,7 @@ const Planimetria = () => {
               </p>
               <div className="planimetria-visual">
                 <img 
-                  src="/src/components/img/Multisas3.png" 
+                  src={logoMultisas} 
                   alt="Planimetría del logo" 
                   className="planimetria-logo"
                 />

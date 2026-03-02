@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import './Aplicaciones.css';
+import logoMultisas from './img/Multisas3.png';
 
 const Aplicaciones = () => {
   const aplicaciones = [
@@ -61,7 +62,7 @@ const Aplicaciones = () => {
                   <div className="ejemplo-box">
                     <div className="ejemplo-mockup">
                       <img 
-                        src="/src/components/img/Multisas3.png" 
+                        src={logoMultisas} 
                         alt="Aplicación 1" 
                         className="mockup-img"
                       />
@@ -73,7 +74,7 @@ const Aplicaciones = () => {
                   <div className="ejemplo-box">
                     <div className="ejemplo-mockup digital-mockup">
                       <img 
-                        src="/src/components/img/Multisas3.png" 
+                        src={logoMultisas} 
                         alt="Aplicación 2" 
                         className="mockup-img"
                       />

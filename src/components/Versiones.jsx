@@ -1,16 +1,24 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Versiones.css';
+import multisas2 from './img/Multisas2.png';
+import multisas3 from './img/Multisas3.png';
+import multisas4 from './img/Multisas4.png';
+import multisas5 from './img/Multisas5.png';
+import multisas6 from './img/Multisas6.png';
+import multisas7 from './img/Multisas7.png';
+import multisas8 from './img/Multisas8.png';
+import multisas3NoBg from './img/Multisas3-removebg-preview (1) 1.png';
 
 const Versiones = () => {
   const versiones = [
-    { nombre: 'Principal', archivo: 'Multisas3.png', descripcion: 'Versión principal a color' },
-    { nombre: 'Alternativa 1', archivo: 'Multisas2.png', descripcion: 'Variante de color' },
-    { nombre: 'Alternativa 2', archivo: 'Multisas4.png', descripcion: 'Versión simplificada' },
-    { nombre: 'Alternativa 3', archivo: 'Multisas5.png', descripcion: 'Versión compacta' },
-    { nombre: 'Alternativa 4', archivo: 'Multisas6.png', descripcion: 'Versión horizontal' },
-    { nombre: 'Alternativa 5', archivo: 'Multisas7.png', descripcion: 'Versión vertical' },
-    { nombre: 'Alternativa 6', archivo: 'Multisas8.png', descripcion: 'Versión isótipo' }
+    { nombre: 'Principal', imagen: multisas3, descripcion: 'Versión principal a color' },
+    { nombre: 'Alternativa 1', imagen: multisas2, descripcion: 'Variante de color' },
+    { nombre: 'Alternativa 2', imagen: multisas4, descripcion: 'Versión simplificada' },
+    { nombre: 'Alternativa 3', imagen: multisas5, descripcion: 'Versión compacta' },
+    { nombre: 'Alternativa 4', imagen: multisas6, descripcion: 'Versión horizontal' },
+    { nombre: 'Alternativa 5', imagen: multisas7, descripcion: 'Versión vertical' },
+    { nombre: 'Alternativa 6', imagen: multisas8, descripcion: 'Versión isótipo' }
   ];
 
   return (
@@ -31,7 +39,7 @@ const Versiones = () => {
               <div className="version-card">
                 <div className="version-preview">
                   <img 
-                    src={`/src/components/img/${version.archivo}`}
+                    src={version.imagen}
                     alt={version.nombre}
                     className="version-logo"
                   />
@@ -55,7 +63,7 @@ const Versiones = () => {
                     <h5>Fondos Claros</h5>
                     <div className="uso-example fondo-claro">
                       <img 
-                        src="/src/components/img/Multisas3.png" 
+                        src={multisas3} 
                         alt="Sobre fondo claro"
                         className="uso-logo"
                       />
@@ -68,7 +76,7 @@ const Versiones = () => {
                     <h5>Fondos Oscuros</h5>
                     <div className="uso-example fondo-oscuro">
                       <img 
-                        src="/src/components/img/Multisas3-removebg-preview (1) 1.png" 
+                        src={multisas3NoBg} 
                         alt="Sobre fondo oscuro"
                         className="uso-logo"
                       />

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './Concepto.css';
+import logoMultisas from './img/Multisas3.png';
 
 const Concepto = () => {
   return (
@@ -36,7 +37,7 @@ const Concepto = () => {
             <div className="concepto-visual">
               <div className="concepto-image-wrapper">
                 <img 
-                  src="/src/components/img/Multisas3.png" 
+                  src={logoMultisas} 
                   alt="Logo Multiaxis SAS" 
                   className="concepto-logo"
                 />
