@@ -1,0 +1,334 @@
+.tipografia-card-main,
+.tipografia-card-secondary {
+  border: none;
+  border-radius: 20px;
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.tipografia-card-main {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-top: 5px solid var(--primary-color);
+}
+
+.tipografia-card-secondary {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-top: 5px solid var(--secondary-color);
+}
+
+.tipografia-card-main .card-body,
+.tipografia-card-secondary .card-body {
+  padding: 3rem;
+}
+
+.tipo-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.tipo-categoria {
+  font-size: 1.1rem;
+  color: var(--accent-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+.tipo-descripcion {
+  color: #495057;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.tipo-pesos h5 {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.peso-item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+  color: var(--dark-color);
+  border-bottom: 1px solid #e9ecef;
+}
+
+.peso-item:last-child {
+  border-bottom: none;
+}
+
+.tipo-sample {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow-md);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.montserrat-sample .alfabeto h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--dark-color);
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.montserrat-sample .numeros {
+  color: var(--accent-color);
+  margin-top: 1rem;
+}
+
+.roboto-sample .alfabeto p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  color: var(--dark-color);
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.roboto-sample .numeros {
+  color: var(--accent-color);
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.jerarquia-container {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: var(--shadow-lg);
+}
+
+.subsection-title {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.jerarquia-samples {
+  margin-top: 2rem;
+}
+
+.jerarquia-item {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--accent-color);
+  background: #f8f9fa;
+  border-radius: 0 10px 10px 0;
+}
+
+.jerarquia-specs {
+  display: block;
+  font-size: 0.85rem;
+  color: #6c757d;
+  font-family: 'Roboto', monospace;
+  margin-top: 0.5rem;
+}
+
+.sample-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--dark-color);
+  margin-bottom: 0;
+}
+
+.sample-h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--dark-color);
+  margin-bottom: 0;
+}
+
+.sample-h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--dark-color);
+  margin-bottom: 0;
+}
+
+.sample-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--dark-color);
+  margin-bottom: 0;
+}
+
+.sample-p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #495057;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.tipo-guidelines {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: var(--shadow-md);
+}
+
+.tipo-guidelines h4 {
+  color: var(--primary-color);
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.guideline-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow-sm);
+  border-top: 4px solid #28a745;
+}
+
+.guideline-box.incorrect-box {
+  border-top-color: #dc3545;
+}
+
+.guideline-icon-tipo {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #d4edda;
+  color: #28a745;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.guideline-icon-tipo.incorrect {
+  background: #f8d7da;
+  color: #dc3545;
+}
+
+.guideline-box h5 {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.guideline-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.guideline-box ul li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.guideline-box ul li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+@media (max-width: 992px) {
+  .tipografia-card-main .card-body,
+  .tipografia-card-secondary .card-body {
+    padding: 2rem;
+  }
+  
+  .tipo-title {
+    font-size: 2rem;
+  }
+  
+  .sample-h1 {
+    font-size: 2rem;
+  }
+  
+  .sample-h2 {
+    font-size: 1.75rem;
+  }
+  
+  .jerarquia-container,
+  .tipo-guidelines {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .tipo-title {
+    font-size: 1.75rem;
+  }
+  
+  .montserrat-sample .alfabeto h4 {
+    font-size: 1.25rem;
+  }
+  
+  .roboto-sample .alfabeto p {
+    font-size: 1.1rem;
+  }
+  
+  .sample-h1 {
+    font-size: 1.75rem;
+  }
+  
+  .sample-h2 {
+    font-size: 1.5rem;
+  }
+  
+  .sample-h3 {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .tipografia-card-main .card-body,
+  .tipografia-card-secondary .card-body {
+    padding: 1.5rem;
+  }
+  
+  .tipo-title {
+    font-size: 1.5rem;
+  }
+  
+  .tipo-sample {
+    padding: 1rem;
+  }
+  
+  .peso-item {
+    font-size: 1.1rem;
+  }
+  
+  .jerarquia-container,
+  .tipo-guidelines {
+    padding: 1.5rem;
+  }
+  
+  .jerarquia-item {
+    padding: 1rem;
+  }
+}

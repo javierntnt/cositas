@@ -1,0 +1,90 @@
+.simbologia-logo-container {
+  background: white;
+  padding: 4rem;
+  border-radius: 20px;
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+}
+
+.simbologia-logo {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 10px 25px rgba(0,0,0,0.15));
+}
+
+.simbologia-card {
+  border: none;
+  border-left: 4px solid var(--accent-color);
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s ease;
+  padding: 1rem;
+  background: white;
+}
+
+.simbologia-card:hover {
+  transform: translateX(10px);
+  box-shadow: var(--shadow-lg);
+  border-left-color: var(--primary-color);
+}
+
+.card-number {
+  font-size: 3rem;
+  font-weight: 700;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.simbologia-card .card-title {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.simbologia-card .card-text {
+  color: #6c757d;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+  .simbologia-logo-container {
+    padding: 2rem;
+  }
+  
+  .card-number {
+    font-size: 2rem;
+  }
+  
+  .simbologia-card .card-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .simbologia-logo-container {
+    padding: 1.5rem;
+  }
+  
+  .card-number {
+    font-size: 1.75rem;
+  }
+  
+  .simbologia-card {
+    padding: 0.75rem;
+  }
+  
+  .simbologia-card .card-title {
+    font-size: 1.15rem;
+  }
+  
+  .simbologia-card .card-text {
+    font-size: 0.95rem;
+  }
+}

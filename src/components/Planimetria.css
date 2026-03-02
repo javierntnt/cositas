@@ -1,0 +1,183 @@
+.planimetria-guide {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: var(--shadow-lg);
+}
+
+.planimetria-guide h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.planimetria-guide > p {
+  color: #6c757d;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.planimetria-visual {
+  position: relative;
+  padding: 4rem;
+  border: 2px dashed var(--accent-color);
+  border-radius: 15px;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.planimetria-logo {
+  max-width: 60%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.grid-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    repeating-linear-gradient(0deg, transparent, transparent 49px, rgba(44, 95, 141, 0.1) 49px, rgba(44, 95, 141, 0.1) 50px),
+    repeating-linear-gradient(90deg, transparent, transparent 49px, rgba(44, 95, 141, 0.1) 49px, rgba(44, 95, 141, 0.1) 50px);
+  border-radius: 15px;
+  pointer-events: none;
+}
+
+.planimetria-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow-md);
+  height: 100%;
+  border-top: 4px solid var(--accent-color);
+  transition: all 0.3s ease;
+}
+
+.planimetria-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.planimetria-card h4 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.planimetria-card > p {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.medida-box {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-left: 4px solid var(--primary-color);
+}
+
+.medida-numero {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.medida-label {
+  display: block;
+  font-size: 0.95rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.proporcion-visual {
+  text-align: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.correct-icon,
+.incorrect-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.correct-icon {
+  background: #d4edda;
+  color: #28a745;
+}
+
+.incorrect-icon {
+  background: #f8d7da;
+  color: #dc3545;
+}
+
+@media (max-width: 992px) {
+  .planimetria-guide {
+    padding: 2rem;
+  }
+  
+  .planimetria-visual {
+    padding: 2rem;
+  }
+  
+  .planimetria-logo {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .planimetria-guide h3 {
+    font-size: 1.5rem;
+  }
+  
+  .planimetria-card h4 {
+    font-size: 1.25rem;
+  }
+  
+  .medida-numero {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .planimetria-guide {
+    padding: 1.5rem;
+  }
+  
+  .planimetria-visual {
+    padding: 1.5rem;
+  }
+  
+  .planimetria-card {
+    padding: 1.5rem;
+  }
+  
+  .correct-icon,
+  .incorrect-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.5rem;
+  }
+}
